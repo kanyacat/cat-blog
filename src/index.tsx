@@ -1,7 +1,13 @@
 import { render } from 'react-dom'
-import styles from './Meow.module.scss'
+import { BrowserRouter } from 'react-router-dom'
+import App from './App'
+import ThemeProvider from './theme/ThemeProvider'
 
 render(
-	<div className={styles.meow}>hello~ ффффффффффф</div>,
+	<BrowserRouter>
+		<ThemeProvider>
+			<App />
+		</ThemeProvider>
+	</BrowserRouter>,
 	document.getElementById('root')
 )
