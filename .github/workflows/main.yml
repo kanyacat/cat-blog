@@ -26,8 +26,8 @@ jobs:
       - name: linting css
         run: npm run stylelint
       - name: unit testing
-        run: npm run jest
+        run: npm run test
       - name: build storybook
-        run: npm run build-storybook
+        run: npm run build:storybook
       - name: screenshot testing
-        run: npm run loki
+        run: npm run loki:ci

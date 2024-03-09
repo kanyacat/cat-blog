@@ -11,11 +11,10 @@
     "stylelint": "npx stylelint \"**/*.scss\" --fix",
     "test": "jest --config ./config/jest/jest.config.ts",
     "storybook": "start-storybook -p 6006 -c ./config/storybook",
-    "build-storybook": "build-storybook -c ./config/storybook\"",
+    "build:storybook": "build-storybook -c ./config/storybook\"",
     "loki": "npx loki test",
-    "loki:ok": "npx loki approve"
-
-
+    "loki:ok": "npx loki approve",
+    "loki:ci": "loki --requireReference --reactUri file:./storybook-static"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
