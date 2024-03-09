@@ -22,12 +22,17 @@ jobs:
       - name: build production project
         run: npm run prod
       - name: linting typescript
+        if: always()
         run: npm run eslint
       - name: linting css
+        if: always()
         run: npm run stylelint
       - name: unit testing
+        if: always()
         run: npm run test
       - name: build storybook
+        if: always()
         run: npm run build:storybook
       - name: screenshot testing
+        if: always()
         run: npm run loki:ci

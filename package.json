@@ -14,7 +14,10 @@
     "build:storybook": "build-storybook -c ./config/storybook",
     "loki": "npx loki test",
     "loki:ok": "npx loki approve",
-    "loki:ci": "loki --requireReference --reactUri file:./storybook-static"
+    "loki:ci": "loki --requireReference --reactUri file:./storybook-static",
+    "loki:report": "npm run loki:json && npm run loki:html",
+    "loki:json": "node scripts/generate-visual-json-report.js",
+    "loki:html": "reg-cli --from .loki/report.json --report .loki/report.html"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
