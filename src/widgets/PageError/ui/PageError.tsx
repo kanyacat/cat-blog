@@ -18,7 +18,6 @@ export const PageError = ({ className }: PageErrorProps) => {
     return (
         <div className={classNames(styles.PageError, {}, [className])}>
             <p>
-                {' '}
                 {t('Произошла непредвиденная ошибка')}
             </p>
             <Button>{t('Обновить страницу')}</Button>
