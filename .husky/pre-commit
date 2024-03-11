@@ -6,4 +6,4 @@ npm run eslint
 npm run stylelint
 npm run test
 npm run build:storybook
-npm run loki:ci
+npm run loki
