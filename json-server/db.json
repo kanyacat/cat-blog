@@ -107,13 +107,17 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://sun9-31.userapi.com/impg/c_HTQax_hgvGv7mw6hS-3oFSIazjC_YoROykQg/uIq_aMRJbtc.jpg?size=1024x685&quality=96&sign=9d85f3265b0a0a9c41d429858895e6de&c_uniq_tag=7y3qH1n0tKgXEo5ljUQ0rFpyiylvWgoFKdXa9xwU27k&type=album"
+
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER"
+      "role": "USER",
+      "avatar": "https://mykaleidoscope.ru/uploads/posts/2018-05/1527595771_kotenok_malchik_britanskiy_korotkosherstnyy_britanec_chernyy.jpg"
+
     }
   ],
   "profile": {
